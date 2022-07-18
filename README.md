@@ -36,6 +36,6 @@ curl -X POST http://localhost:8083/connectors/connector-otc-vsms-cdctestdb-fruit
 curl -X POST http://localhost:8083/connectors/connector-otc-vsms-cdctestdb-fruit/tasks/0/restart
 curl -X PUT http://localhost:8083/connectors/connector-otc-vsms-cdctestdb-fruit/resume
 
-#Adding secret dockerhub
+# Adding secret dockerhub
 kubectl create secret docker-registry netzoundx-sc --docker-username=xxxx --docker-password=xxxx --docker-server=https://index.docker.io/v1/
 
